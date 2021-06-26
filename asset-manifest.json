@@ -1,8 +1,8 @@
 {
   "files": {
-    "main.css": "/coco-school-pyramid-math/static/css/main.e45e1017.chunk.css",
-    "main.js": "/coco-school-pyramid-math/static/js/main.13a231e4.chunk.js",
-    "main.js.map": "/coco-school-pyramid-math/static/js/main.13a231e4.chunk.js.map",
+    "main.css": "/coco-school-pyramid-math/static/css/main.01ed70c4.chunk.css",
+    "main.js": "/coco-school-pyramid-math/static/js/main.4fffc6e5.chunk.js",
+    "main.js.map": "/coco-school-pyramid-math/static/js/main.4fffc6e5.chunk.js.map",
     "runtime-main.js": "/coco-school-pyramid-math/static/js/runtime-main.e925dd4c.js",
     "runtime-main.js.map": "/coco-school-pyramid-math/static/js/runtime-main.e925dd4c.js.map",
     "static/js/2.65e1f7a8.chunk.js": "/coco-school-pyramid-math/static/js/2.65e1f7a8.chunk.js",
@@ -10,13 +10,13 @@
     "static/js/3.b3bd5505.chunk.js": "/coco-school-pyramid-math/static/js/3.b3bd5505.chunk.js",
     "static/js/3.b3bd5505.chunk.js.map": "/coco-school-pyramid-math/static/js/3.b3bd5505.chunk.js.map",
     "index.html": "/coco-school-pyramid-math/index.html",
-    "static/css/main.e45e1017.chunk.css.map": "/coco-school-pyramid-math/static/css/main.e45e1017.chunk.css.map",
+    "static/css/main.01ed70c4.chunk.css.map": "/coco-school-pyramid-math/static/css/main.01ed70c4.chunk.css.map",
     "static/js/2.65e1f7a8.chunk.js.LICENSE.txt": "/coco-school-pyramid-math/static/js/2.65e1f7a8.chunk.js.LICENSE.txt"
   },
   "entrypoints": [
     "static/js/runtime-main.e925dd4c.js",
     "static/js/2.65e1f7a8.chunk.js",
-    "static/css/main.e45e1017.chunk.css",
-    "static/js/main.13a231e4.chunk.js"
+    "static/css/main.01ed70c4.chunk.css",
+    "static/js/main.4fffc6e5.chunk.js"
   ]
 }
