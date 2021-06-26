@@ -3,7 +3,7 @@ import React, { useState, useEffect } from 'react';
 export const App: React.FC = () => {
 
   const ans = [];
-  for (let i = 1; i <= 40; i++) ans[i] = i;
+  for (let i = 1; i <= 20; i++) ans[i] = i;
 
   const [ans11, setAns11] = useState<number | null>(null);
   const [ans21, setAns21] = useState<number | null>(null);
@@ -59,7 +59,7 @@ export const App: React.FC = () => {
       </header>
       <div className="flex justify-center">
         <div
-          className="flex items-center justify-center text-3xl border-2 border-blue-500 bg-blue-200 w-20 h-20 m-1 rounded-lg">
+          className="flex items-center justify-center text-3xl border-2 border-blue-500 bg-blue-200 w-28 h-28 m-1 rounded-lg">
           <select name="num11" id="num11" value={ans11 ? ans11.toString() : ""} className="bg-blue-200" onChange={handleChange11}>
             <option value=""></option>
             {ans.map((item) =>
@@ -70,7 +70,7 @@ export const App: React.FC = () => {
       </div>
       <div className="flex justify-center">
         <div
-          className="flex items-center justify-center text-3xl border-2 border-green-500 bg-green-200 w-20 h-20 m-1 rounded-lg">
+          className="flex items-center justify-center text-3xl border-2 border-green-500 bg-green-200 w-28 h-28 m-1 rounded-lg">
           <select name="num21" id="num21" value={ans21 ? ans21.toString() : ""} className="bg-green-200" onChange={handleChange21}>
             <option value=""></option>
             {ans.map((item) =>
@@ -79,7 +79,7 @@ export const App: React.FC = () => {
           </select>
         </div>
         <div
-          className="flex items-center justify-center text-3xl border-2 border-green-500 bg-green-200 w-20 h-20 m-1 rounded-lg">
+          className="flex items-center justify-center text-3xl border-2 border-green-500 bg-green-200 w-28 h-28 m-1 rounded-lg">
           <select name="num22" id="num22" value={ans22 ? ans22.toString() : ""} className="bg-green-200" onChange={handleChange22}>
             <option value=""></option>
             {ans.map((item) =>
@@ -91,19 +91,19 @@ export const App: React.FC = () => {
       </div>
       <div className="flex justify-center">
         <div
-          className="flex items-center justify-center text-3xl border-2 border-red-500 bg-red-200 w-20 h-20 m-1 rounded-lg">{num31}
+          className="flex items-center justify-center text-3xl border-2 border-red-500 bg-red-200 w-28 h-28 m-1 rounded-lg">{num31}
         </div>
         <div
-          className="flex items-center justify-center text-3xl border-2 border-red-500 bg-red-200 w-20 h-20 m-1 rounded-lg">{num32}
+          className="flex items-center justify-center text-3xl border-2 border-red-500 bg-red-200 w-28 h-28 m-1 rounded-lg">{num32}
         </div>
         <div
-          className="flex items-center justify-center text-3xl border-2 border-red-500 bg-red-200 w-20 h-20 m-1 rounded-lg">{num33}
+          className="flex items-center justify-center text-3xl border-2 border-red-500 bg-red-200 w-28 h-28 m-1 rounded-lg">{num33}
         </div>
       </div>
       <div className="flex justify-center flex-col">
-        <input type="button" value="こたえあわせ" className="bg-pink-500 text-white font-bold m-5 py-2 px-5 rounded" onClick={handleClickAns} />
+        <input type="button" value="こたえあわせ" className="bg-pink-500 text-white font-bold m-3 py-2 px-5 rounded" onClick={handleClickAns} />
         <div className="m-5 py-2 px-5 rounded text-center text-3xl">{result}</div>
-        <input type="button" value="つぎのもんだい" className="bg-blue-500 text-white font-bold m-5 py-2 px-5 rounded" onClick={handleClickNextQuestion} />
+        <input type="button" value="つぎのもんだい" className="bg-blue-500 text-white font-bold m-3 py-2 px-5 rounded" onClick={handleClickNextQuestion} />
       </div>
     </div>
   );
